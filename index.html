@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Autism Detect</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      media="print"
+      onload="this.media='all'"
+    />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+      <div class="spinner"></div>
+      <h2>loading...</h2>
+    </div>
+
+    <!-- Main content -->
+    <div id="backgroundCanvas"></div>
+
+    <section class="home" id="home">
+      <div class="image">
+        <!-- <img src="imgs/mine.jpg" alt="Mine" /> -->
+      </div>
+      <div class="content">
+        <div class="container-text">
+          <h4>Hi, Our App Is</h4>
+          <h1>Autism <span>Detect</span></h1>
+          <h3><span>About </span> Project</h3>
+          <!-- <div class="media">
+            <a
+              href="https://www.facebook.com/profile.php?id=100035538612653&mibextid=gik2fB"
+              target="_blank"
+            >
+              <img src="imgs/facebook.png" alt="Facebook" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=201093669048"
+              target="_blank"
+            >
+              <img src="imgs/whatsapp.png" alt="WhatsApp" />
+            </a>
+            <a href="https://github.com/mohnasr137" target="_blank">
+              <img src="imgs/github.png" alt="Github" />
+            </a>
+            <a href="https://linktr.ee/MohNasr137" target="_blank">
+              <img src="imgs/linktree.png" alt="LinkedTree" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mohamed-nasr-68b62b243"
+              target="_blank"
+            >
+              <img src="imgs/linkedin.png" alt="LinkedIn" />
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="group">
+        <h4>Ui/Ux</h4>
+        <a
+          href="https://www.figma.com/design/rFSwa0klV7IP9x2JpZjBhz/Autism-App"
+          class="btn"
+          target="_blank"
+          >Mobile</a
+        >
+        <a
+          href="https://www.figma.com/design/VoLdy5FV3o6NyDGh9c0S37/Autism-web"
+          class="btn"
+          target="_blank"
+          >Website</a
+        >
+        <a
+          href="https://www.figma.com/proto/YT5ARWpZywEAsJ5cRJdSU3/Autism-App"
+          class="btn"
+          target="_blank"
+          >Prototype</a
+        >
+      </div>
+      <div class="group">
+        <h4>Front-End</h4>
+        <a
+          href="https://github.com/lamiafekry2003/autism"
+          class="btn"
+          target="_blank"
+          >Website Code</a
+        >
+        <a
+          href="https://autism-detection.vercel.app"
+          class="btn"
+          target="_blank"
+          >Website Preview</a
+        >
+        <a
+          href="https://github.com/mohand3del/Autism"
+          class="btn"
+          target="_blank"
+          >Flutter Code</a
+        >
+      </div>
+      <div class="group">
+        <h4>Back-End</h4>
+        <a
+          href="https://github.com/mohnasr137/Autism-App"
+          class="btn"
+          target="_blank"
+          >Node.js Code</a
+        >
+        <a
+          href="https://www.postman.com/orange-space-543455/autism-app"
+          class="btn"
+          target="_blank"
+          >Node.js Collaction</a
+        >
+        <a
+          href="https://github.com/mohnasr137/flask_ml"
+          class="btn"
+          target="_blank"
+          >Flask ML</a
+        >
+        <a
+          href="https://github.com/mohnasr137/flask_childface"
+          class="btn"
+          target="_blank"
+          >Flask Childface</a
+        >
+        <a
+          href="https://github.com/mohnasr137/flask_coloring"
+          class="btn"
+          target="_blank"
+          >Flask Coloring</a
+        >
+        <a
+          href="https://github.com/mohnasr137/flask_handwriting"
+          class="btn"
+          target="_blank"
+          >Flask Handwriting</a
+        >
+      </div>
+      <div class="group">
+        <h4>ML/DL</h4>
+        <a
+          href="https://www.kaggle.com/datasets/fabdelja/autism-screening-for-toddlers"
+          class="btn"
+          target="_blank"
+          >ML Dataset</a
+        >
+        <a
+          href="https://www.kaggle.com/datasets/cihan063/autism-image-data"
+          class="btn"
+          target="_blank"
+          >ChildFace Dataset</a
+        >
+        <a
+          href="https://www.kaggle.com/datasets/imranliaqat32/autism-spectrum-disorder-in-childrenhandgestures"
+          class="btn"
+          target="_blank"
+          >Coloring Dataset</a
+        >
+        <a
+          href="https://www.kaggle.com/datasets/imranliaqat32/autism-spectrum-disorder-in-childrenhandgestures"
+          class="btn"
+          target="_blank"
+          >Handwriting Dataset</a
+        >
+      </div>
+    </section>
+
+    <!-- Deferred script loading -->
+    <script type="module" src="./main.js" defer></script>
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(() => {
+          document.body.classList.add("loaded");
+        }, 250);
+      });
+    </script>
+  </body>
+</html>
